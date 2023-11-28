@@ -18,3 +18,22 @@ body {
   cursor: pointer;
   height: 100px;
 }
+
+@keyframes flip {
+  0% {
+    border-color: #333;
+    transform: rotateX(0);
+  }
+  45% {
+    border-color: #333;
+    transform: rotateX(90deg);
+  }
+  55% {
+    color: #fff;
+    transform: rotateX(90deg);
+  }
+  100% {
+    color: #fff;
+    transform: rotateX(0);
+  }
+}
