@@ -1,3 +1,1 @@
-# dom
-
-![App](app.gif)
+# horoscope
